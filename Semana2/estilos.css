@@ -1,0 +1,111 @@
+/*Cliente (Principio CSS)*/
+body{
+    background: #8B687F;
+}
+
+header{
+    background: white;
+}
+
+header div{
+    text-align: center;
+}
+
+header nav{
+    list-style: none;
+    padding: 0j;
+    background: #9F8082;
+    margin: auto;
+}
+
+header li{
+     display: inline-block;
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+header li a:hover{
+    background: rgb(69, 69, 121);
+}
+
+.article{
+    width: 58.5%;
+    float: left;
+    margin-right: 1.5%;
+    background-color: #E58F65;
+}
+
+main aside{
+    width: 40%;
+    float: right;
+    background-color: #D05353;
+}
+
+.article{
+    text-align: center;
+}
+
+aside h2{
+    text-align: center;
+}
+
+.datos{
+    text-align: center;
+}
+
+footer{
+    margin-top: 1rem;
+    width: 40%;
+    float: right;
+    background-color: #E58F65;
+    text-align: center;
+}
+
+.Boton{
+    text-align: center;
+}
+/*Cliente(fin CSS)*/
+
+/*Administrador(fin CSS)*/
+.article-administrador{
+    background: #1EA896;
+    text-align: center;
+    width: 50%;
+    height: 267px;
+    float: left;
+}
+
+.final{
+    background: #1EA896;
+    text-align: center;
+    width: 50%;
+    float: right;
+}
+.Adornos, th, td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(137, 137, 194);
+    width: 48%;
+    padding: 10px;
+}
+.Saboress, th, td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(137, 137, 194);
+    width: 80%;
+    padding: 10px;
+}
+.pie{
+    margin-top: 1rem;
+    width: 100%;
+    background-color: #E58F65;
+    text-align: center;
+}
+/*Administrador(fin CSS)*/
