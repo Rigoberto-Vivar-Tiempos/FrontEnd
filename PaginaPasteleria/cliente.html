@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Pasteleria "Mil delicias"</title>
+</head>
+<body>
+  <header>
+    <div class="logotipo">
+        <img src="/Imagenes/Logo(final).png" alt="Milogo" width="450" height="150">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="">Historia</a></li>
+            <li><a href="">Trayectoria</a></li>
+            <li><a href="">Pedidos sugeridos</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="main">
+        <section class="article">
+            <h1>Bienvenido barrigon, Observa nuestros pasteles :3</h1>
+            <div class="pastel1">
+                <img src="/Imagenes/pastel1.jpg" alt="Tresleches">
+                <h2>Precio $450</h2>
+            </div>
+            <div class="pastel2">
+                <img src="/Imagenes/pastel2.jpg" alt="Elote">
+                <h2>Precio $398</h2>
+            </div>
+            <div class="pastel3">
+                <img src="/Imagenes/pastel 3.jpg" alt="Imposible">
+                <h2>Precio $500</h2>
+                <br>
+            </div>
+        </section>
+
+
+        <aside>
+            <h2>Formulario para pedido</h2>
+            <div class="datos">
+                <label for="input1">Nombre del cliente:</label><br>
+                <input type="text" id="input1">
+                <br><br>
+                <label for="">Numero de contacto(Tel.):</label><br>
+                <input type="number">
+                <br><br>
+                <label for="">Direccion de correo electronico:</label><br>
+                <input type="email">
+                <br><br>
+                <label for="">Descripocion general del pastel(Opcional):</label><br>
+                <input type="text">
+            </div><br><br>
+            <div class="Sabores">
+                <h2>Adornos disponibles</h2><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Chispas">
+                <label for="topping1">Chispas $10</label><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Fresas">
+                <label for="topping1">Fresas $15</label><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Mermelada">
+                <label for="topping1">Mermelada $12</label><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Nuez">
+                <label for="topping1">Nuez $18</label><br>
+            </div><
+            <div class="Pasteles">
+                <h2>Sabores de pasteles a seleccionar</h2><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Tresleches">
+                <label for="topping1">Tres leches</label><br>
+                <input type="checkbox" id="topping1" name="topping1" value="PanElote">
+                <label for="topping1">Pan de Elote</label><br>
+                <input type="checkbox" id="topping1" name="topping1" value="Imposible">
+                <label for="topping1">Imposible</label><br>
+            </div>
+            <div class="Boton">
+                <input type="button" value="Enviar" onclick="alert(`El formulario se a enviado`)">
+            </div>
+        </aside>
+
+    </section>
+  </main>
+
+  <footer>
+    <h5>Calle Diamante, Col. Buena vista., Dubai, México</h5>
+    <h5>Horario de Lunes a Vienres de 7:00 a.m a 4:p.m</h5>
+    <h5>Tel.7352742763</h5>
+  </footer>
+</body>
+</html>
